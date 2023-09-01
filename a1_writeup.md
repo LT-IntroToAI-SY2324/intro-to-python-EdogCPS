@@ -13,10 +13,11 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-
+It is nice how simple it is, but also makes some coding more confusing by not reqireing certain procedures. Example: not declaing variable type when inilizing or delcaring them. It makes it ocnfusing when tracing through code.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
+python is similier in syntax but becasue I learned Java and Javascript before this, 
 
 
 
