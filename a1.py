@@ -48,29 +48,22 @@ def every_other(lst: List[T]) -> List[T]:
 
 
 def sum_list(lst: List[int]) -> int:
-    sum = 0
+    total_sum = 0
     canReturn = True
-    for x in List:
+    for x in lst:
         try:
-            sum + x
-        except:
+            total_sum += x
+        except TypeError:
             print("All values in list are not numbers")
             canReturn = False
     if canReturn:
-        return int(sum)
-    return
+        return int(total_sum)
+    return None
     raise NotImplementedError("sum_list")
 
 
 def mean(lst: List[int]) -> float:
-    """Takes a list of numbers, and returns the mean of the numbers.
-
-    Args:
-        lst - a list of numbers
-
-    Returns:
-        the mean of the passed in list
-    """
+    return (sum_list(lst) / len(lst))
     raise NotImplementedError("mean")
 
 
@@ -114,8 +107,8 @@ print(absolute(-5))
 print(factorial(5))
 the_list = ["apple", "pineapple", "quasimoto", "madigascar", "cool", "dunzo washingotn"]
 print(every_other(the_list))
-list_of_nums = [int(1), int(1), int(1), int(1), int(1)]
-print(sum_list(list_of_nums))
+list_of_nums = [1, 2, 3, 4, 5, 6, 4, 7, 7]
+print(mean(list_of_nums))
 # this line causes the nested code to be skipped if the file is imported instead of run
 """if __name__ == "__main__":
     assert absolute(-1) == 1, "absolute of -1 failed"
