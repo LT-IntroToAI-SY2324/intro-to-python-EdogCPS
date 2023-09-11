@@ -15,10 +15,15 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 1. What is your initial thoughts about the python programming language?
 It is nice how simple it is, but also makes some coding more confusing by not reqireing certain procedures. Example: not declaing variable type when inilizing or delcaring them. It makes it ocnfusing when tracing through code.
 
+    Initialy, I had a strong dislike agaisnt it becasue of its lack of complexity. Now, after writting a few thinkgs in the language, I feel its kinda nice. Its got a few bugs here and there but overall I enjoy coding with it.
+
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
-python is similier in syntax but becasue I learned Java and Javascript before this, 
+
+    python is similier in some syntax but becasue I learned Java and Javascript before this, many things seem a lot more complex then they are. I will say understanding what I google about python is easier. I still dont like the declaring varibles thing but overall thumbs up. 
 
 
 
 3. What are some things that you learned through this assignment?
+
+    How to code in python. Thanks to a good amount of chat gpt and W3 schools I now have a pretty good idea on how to do most things in python. 
