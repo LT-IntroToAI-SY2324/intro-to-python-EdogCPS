@@ -104,7 +104,7 @@ def duck_duck_goose2(lst: List[str], a) -> List[str]:
     return duck_duck_goose2(new, a)
 
 def duck_duck_goose(lst):
-    duck_duck_goose2(lst, 1)
+    return duck_duck_goose2(lst, 1)
 
     """
     names = ["roscoe", "kim", "woz", "solin", "law", "remess"]
